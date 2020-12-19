@@ -20,58 +20,89 @@ class _ExampleAppState extends State<ExampleApp> {
     setState(() {
       dataPostAll = [
         new PostModel(
-          title:
-              "Ole Gunnar Solskjaer:\nManchester United \nBikin Saya Ubanan!",
+          title: "Polusi Udara DKI Tinggi di Pagi Hari, Ini Tips Aman Berolahraga",
           desc: "sa",
           id: "1",
-          category: "news",
-          imageUrl:
-              "https://images.daznservices.com/di/library/GOAL/f7/f6/ole-gunnar-solskjaer-man-utd_z5qdprkl4su1vkzh8j2jt0b3.jpg?t=1228189446&amp;quality=60&amp;w=800",
+          category: "gallery",
+          imageUrl: "https://akcdn.detik.net.id/community/media/visual/2020/07/19/begini-ramainya-kawasan-bkt-saat-minggu-pagi-7_169.jpeg?w=700&q=90",
         ),
         new PostModel(
           title:
-              "Ole Gunnar Solskjaer:\nManchester United \nBikin Saya Ubanan!",
+              "Sederet Aturan Baru PSBB DKI Jelang Natal dan Tahun Baru",
           desc: "sa",
-          id: "1",
+          id: "2",
           category: "news",
           imageUrl:
-              "https://akcdn.detik.net.id/community/media/visual/2020/12/19/dani-wisnu-1_169.jpeg?w=700&q=90",
+              "https://akcdn.detik.net.id/community/media/visual/2020/06/17/sterilisasi-monas-jelang-dibuka-kembali-di-masa-psbb-transisi-1_169.jpeg?w=700&q=90",
         ),
         new PostModel(
           title:
-              "Ole Gunnar Solskjaer:\nManchester United \nBikin Saya Ubanan!",
+              "Ole Gunnar Solskjaer: Manchester United  Bikin Saya Ubanan!",
           desc: "sa",
-          id: "1",
-          category: "news",
+          id: "3",
+          category: "sport",
           imageUrl:
-              "https://images.daznservices.com/di/library/GOAL/f7/f6/ole-gunnar-solskjaer-man-utd_z5qdprkl4su1vkzh8j2jt0b3.jpg?t=1228189446&amp;quality=60&amp;w=800",
+              "https://akcdn.detik.net.id/community/media/visual/2019/06/25/1f76c9d2-3a35-4772-81d1-5bb2b93c5c70_169.png?w=700&q=90",
         ),
         new PostModel(
           title:
-              "Ole Gunnar Solskjaer:\nManchester United \nBikin Saya Ubanan!",
+              "Bacaan Niat Sholat 5 Waktu Lengkap dengan Artinya",
           desc: "sa",
-          id: "1",
-          category: "news",
+          id: "4",
+          category: "gallery",
           imageUrl:
               "https://akcdn.detik.net.id/community/media/visual/2019/12/20/5cbf3995-2ee8-4ae1-bb62-f63333401e56_169.jpeg?w=700&q=90",
         ),
         new PostModel(
           title:
-              "Ole Gunnar Solskjaer:\nManchester United \nBikin Saya Ubanan!",
+              "Jeff Bezos, Orang Terkaya Dunia yang Diramal Akan Bangkrut",
           desc: "sa",
-          id: "1",
+          id: "5",
           category: "news",
           imageUrl:
-              "https://images.daznservices.com/di/library/GOAL/f7/f6/ole-gunnar-solskjaer-man-utd_z5qdprkl4su1vkzh8j2jt0b3.jpg?t=1228189446&amp;quality=60&amp;w=800",
+              "https://akcdn.detik.net.id/community/media/visual/2019/04/12/7a22ed4d-4141-496a-8d1c-84be50d9ee8b_169.jpeg?w=700&q=90",
         ),
         new PostModel(
           title:
-              "Ole Gunnar Solskjaer:\nManchester United \nBikin Saya Ubanan!",
+              "Kena COVID-19, Presiden Prancis Ceritakan 3 Gejala Corona yang Dialaminya",
           desc: "sa",
-          id: "1",
-          category: "gallery",
+          id: "6",
+          category: "news",
           imageUrl:
-              "https://images.daznservices.com/di/library/GOAL/f7/f6/ole-gunnar-solskjaer-man-utd_z5qdprkl4su1vkzh8j2jt0b3.jpg?t=1228189446&amp;quality=60&amp;w=800",
+              "https://akcdn.detik.net.id/community/media/visual/2020/12/18/emmanuel-macron-presiden-prancis-dinyatakan-positif-covid-19-dan-siapa-pemimpin-dunia-lainnya-yang-sudah-terpapar_169.jpeg?w=700&q=90",
+        ),
+        new PostModel(
+          title:
+          "Bintang AC Milan Zlatan Ibrahimovic: Singa Bisa Dijinakkan, Saya Tidak!",
+          desc: "sa",
+          id: "7",
+          category: "sport",
+          imageUrl:
+            "https://akcdn.detik.net.id/community/media/visual/2020/12/18/emmanuel-macron-presiden-prancis-dinyatakan-positif-covid-19-dan-siapa-pemimpin-dunia-lainnya-yang-sudah-terpapar_169.jpeg?w=700&q=90"
+        ),
+        new PostModel(
+            title: "Liga Primer Jose Mourinho Mengeluh: Jika Saya Bertingkah Seperti Jurgen Klopp, Pasti Langsung Diusir",
+            desc: "sa",
+            id: "8",
+            category: "sport",
+            imageUrl:
+            "https://images.daznservices.com/di/library/GOAL/86/72/jurgen-klopp-jose-mourinho-2020_hhswhgnwncimzrhwftjqslm6.jpg?t=1915639670&amp;quality=60&amp;w=800"
+        ),
+        new PostModel(
+            title: "Alvaro Morata Bikin Andrea Pirlo Marah Saat Juventus Ditahan Atalanta, Ada Apa?",
+            desc: "sa",
+            id: "9",
+            category: "sport",
+            imageUrl:
+            "https://images.daznservices.com/di/library/GOAL/ab/c2/morata-juventus-atalanta-serie-a_pjvqibr2l06s1bkza1otn2ao0.jpg?t=1883519030&amp;quality=60&amp;w=800"
+        ),
+        new PostModel(
+            title: "5 Fakta Alergi Olahraga, Beneran Ada dan Berbahaya",
+            desc: "sa",
+            id: "10",
+            category: "sport",
+            imageUrl:
+            "https://akcdn.detik.net.id/community/media/visual/2019/02/20/fa187f0d-27ce-4a60-aa7d-0e9f76804622_169.jpeg?w=700&q=90"
         ),
       ];
       posts = dataPostAll;
@@ -164,18 +195,6 @@ class _ExampleAppState extends State<ExampleApp> {
               SizedBox(
                 height: 60,
               ),
-              // News(
-              //     "https://images.daznservices.com/di/library/GOAL/15/e9/ole-gunnar-solskjaer-pep-guardiola-manchester-united-manchester-city_18xfcxstrqxok1pw02ga0vkzt4.jpg?t=1560721126&amp;quality=60&amp;w=800",
-              //     "Diimbangi Manchester \nCity Tanpa Gol, \nOle Gunnar Solskjaer: \nIni Performa Derbi \nTerbaik Manchester United"),
-              // News(
-              //     "https://akcdn.detik.net.id/community/media/visual/2020/12/19/dani-wisnu-1_169.jpeg?w=700&q=90",
-              //     "Pesilat Dunia\nDani Wisnu Tutup Usia"),
-              // News(
-              //     "https://akcdn.detik.net.id/community/media/visual/2019/06/25/1f76c9d2-3a35-4772-81d1-5bb2b93c5c70_169.png?w=700&q=90",
-              //     "Bacaan Niat Sholat\n5 Waktu Lengkap\ndengan Artinya "),
-              // News(
-              //     "https://akcdn.detik.net.id/community/media/visual/2019/12/20/5cbf3995-2ee8-4ae1-bb62-f63333401e56_169.jpeg?w=700&q=90",
-              //     "Bertato, Ini Tampang\nHabib Husein \nAlatas Tersangka \nKasus Pencabulan"),
             ],
           ),
         ),
